@@ -1,6 +1,7 @@
 # Sửa lỗi font Tiếng Việt cho máy đọc sách Kobo
 
 Sách Tiếng Việt trên Kobo vẫn có thể đọc được khi chọn font `Kobo Nickel`, tuy nhiên tên sách, mục lục, ... sẽ bị lỗi do font hệ thống không hỗ trợ. Cách sửa lỗi này là ghi đè font `Avenir Next` và `Georgia` bằng font có hỗ trợ Tiếng Việt.
+Ngoài ra, [repository này](https://github.com/anhhpdev/kobo-tieng-viet) còn thêm vài font Tiếng Việt khác lên đến 20 fonts nên ai cần font nào để có thể phù hợp với bản thân có thể chọn font đó mà không nhất thiết phải chọn font `Avenir Next` và `Georgia`.
 
 ## Thay thế font hệ thống
 
@@ -51,3 +52,8 @@ Sách Tiếng Việt trên Kobo vẫn có thể đọc được khi chọn font 
 - [Các giải pháp khác để hiển thị Tiếng Việt](https://github.com/lelinhtinh/kobo-tieng-viet/wiki/C%C3%A1c-gi%E1%BA%A3i-ph%C3%A1p-kh%C3%A1c-%C4%91%E1%BB%83-hi%E1%BB%83n-th%E1%BB%8B-Ti%E1%BA%BFng-Vi%E1%BB%87t-tr%C3%AAn-Kobo)
 - [Một số thủ thuật đơn giản](https://github.com/lelinhtinh/kobo-tieng-viet/wiki/M%E1%BB%99t-s%E1%BB%91-th%E1%BB%A7-thu%E1%BA%ADt-%C4%91%C6%A1n-gi%E1%BA%A3n-cho-Kobo)
 - [Cách downgrade về phiên bản cũ](https://github.com/lelinhtinh/kobo-tieng-viet/wiki/H%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-h%E1%BA%A1-c%E1%BA%A5p-Kobo-v%E1%BB%81-phi%C3%AAn-b%E1%BA%A3n-c%C5%A9-h%C6%A1n)
+
+## Changelog
+
+- Bản cũ của chủ [repository gốc](https://github.com/lelinhtinh/kobo-tieng-viet) có 8 fonts.
+- Bản mới này của mình update thêm 12 fonts nữa tổng cộng là 20 fonts.
