@@ -1,18 +1,18 @@
 # Sửa lỗi font Tiếng Việt cho máy đọc sách Kobo
 
 Sách Tiếng Việt trên Kobo vẫn có thể đọc được khi chọn font `Kobo Nickel`, tuy nhiên tên sách, mục lục, ... sẽ bị lỗi do font hệ thống không hỗ trợ. Cách sửa lỗi này là ghi đè font `Avenir Next` và `Georgia` bằng font có hỗ trợ Tiếng Việt.
-Ngoài ra, [repository này](https://github.com/anhhpdev/kobo-tieng-viet) còn thêm vài font Tiếng Việt khác lên đến 20 fonts nên ai cần font nào để có thể phù hợp với bản thân có thể chọn font đó mà không nhất thiết phải chọn font `Avenir Next` và `Georgia`.
+Ngoài ra, [repository này](https://github.com/anhhp0/kobo-tieng-viet) còn thêm vài font Tiếng Việt khác lên đến 20 fonts nên ai cần font nào để có thể phù hợp với bản thân có thể chọn font đó mà không nhất thiết phải chọn font `Avenir Next` và `Georgia`.
 
 ## Thay thế font hệ thống
 
 1. Kết nối Kobo với máy tính.
-2. Tải **KoboRoot.tgz** [tại đây](https://github.com/anhhpdev/kobo-tieng-viet/releases) và chép vào thư mục **.kobo**.
+2. Tải **KoboRoot.tgz** [tại đây](https://github.com/anhhp0/kobo-tieng-viet/releases) và chép vào thư mục **.kobo**.
 3. Thực hiện **eject ổ USB** để ngắt kết nối Kobo an toàn, tránh lỗi dữ liệu. Chờ một lúc để máy khởi động lại.
 
 ## Cài từ điển Anh-Việt
 
 1. Tải **DictUtil** bản mới nhất [tại đây](https://github.com/pgaskin/dictutil/releases/latest), tùy theo hệ điều hành, nếu dùng Windows thì chọn **dictutil-windows.exe**.
-2. Tải **dicthtml-en-vi.zip** và **dicthtml-vi-en.zip** [tại đây](https://github.com/anhhpdev/kobo-tieng-viet/releases), lưu vào cùng thư mục vừa tải DictUtil.
+2. Tải **dicthtml-en-vi.zip** và **dicthtml-vi-en.zip** [tại đây](https://github.com/anhhp0/kobo-tieng-viet/releases), lưu vào cùng thư mục vừa tải DictUtil.
 3. Kết nối Kobo với máy tính. Tại thư mục chứa từ điển và DictUtil, chạy lệnh:
 
     ```bash
