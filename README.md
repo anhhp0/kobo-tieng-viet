@@ -17,15 +17,15 @@ Ngoài ra, [repository này](https://github.com/anhhp0/kobo-tieng-viet) còn th�
 
     ```bash
     chmod +x dictutil-linux-64bit
-    dictutil-linux-64bit install dicthtml-en-vi.zip
-    dictutil-linux-64bit install dicthtml-vi-en.zip
+    ./dictutil-linux-64bit install dicthtml-en-vi.zip
+    ./dictutil-linux-64bit install dicthtml-vi-en.zip
     ```
 
     hoặc:
 
     ```bash
-    dictutil-windows.exe install dicthtml-en-vi.zip
-    dictutil-windows.exe install dicthtml-vi-en.zip
+    ./dictutil-windows.exe install dicthtml-en-vi.zip
+    ./dictutil-windows.exe install dicthtml-vi-en.zip
     ```
 
     ... nếu dùng Windows.
